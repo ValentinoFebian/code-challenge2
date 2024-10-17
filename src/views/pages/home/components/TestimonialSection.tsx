@@ -3,8 +3,8 @@ function TestimonialSection() {
         <div className="bg-[#ECDFCC] p-[2em]">
             
             {/*Title*/}
-            <div className="w-auto h-[5em] mb-[4em] text-center">
-                <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-center">What did our clients say?</h2>
+            <div className="w-auto mb-[4em] text-center">
+                <h2 className="text-4xl md:text-5xl lg:text-5xl font-semibold text-center">What did our clients say?</h2>
                 <p className="text-xl text-gray-600 mt-4">
                     See what our students and parents have to say about their experiences with us.
                 </p>
@@ -42,7 +42,7 @@ function TestimonialSection() {
                     </div>
 
                     <p className="mt-[1.5em] text-sm md:text-lg italic">
-                    "The extensive tutor was a game-changer for me. My grades have improved, and I'm more engaged in campus than ever before. 
+                    "The extensive tutoring was a game-changer for me. My grades have improved, and I'm more engaged in campus than ever before. 
                     The tutor was patient, knowledgeable, and truly invested in his success. I highly recommend them to any students!"
                     </p>
                 </div>

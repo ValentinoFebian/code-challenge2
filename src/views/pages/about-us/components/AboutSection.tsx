@@ -24,7 +24,7 @@ export default async function AboutSection() {
 
             {/*Title*/}
             <div className="text-center mb-4">
-                <h2 className="text-4xl md:text-5xl font-semibold text-gray-800">About us</h2>
+                <h2 className="text-4xl md:text-5xl font-semibold">About us</h2>
                 <p className="text-xl text-gray-600 mt-4">
                     Learn more about our mission, values, and what drives us to deliver quality education.
                 </p>

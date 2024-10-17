@@ -32,7 +32,7 @@ function TeamSection() {
     return (
         <div className="bg-[#ECDFCC] py-16 px-4">
             <div className="text-center mb-12">
-                <h2 className="text-4xl lg:text-5xl font-semibold text-gray-800">Meet our tutors!</h2>
+                <h2 className="text-4xl lg:text-5xl font-semibold">Meet our tutors!</h2>
                 <p className="text-xl text-gray-600 mt-4">
                     Meet the dedicated tutors who are passionate about empowering students to excel.
                 </p>
@@ -43,7 +43,7 @@ function TeamSection() {
                     <div key={index} className="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center justify-center h-[30em]">
                         
                         {/*Profile Picture*/}
-                        <div className="w-24 h-24 rounded-full overflow-hidden mb-6">
+                        <div className="w-[7rem] h-[7rem] rounded-full overflow-hidden mb-6">
                             <img 
                                 src={tutor.picture.large} 
                                 alt="profile-pic" 

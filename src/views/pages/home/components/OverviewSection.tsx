@@ -26,25 +26,25 @@ function OverviewSection() {
                     <div className="flex flex-col md:flex-row gap-8">
                         <div className="flex-1">
                             <h3 className="text-2xl font-semibold mb-4">Our Culture</h3>
-                            <p className="text-base md:text-lg leading-relaxed">
-                                Our culture is one of openness and collaboration, where every tutor and student can thrive. 
-                                We value integrity, teamwork, and a passion for learning.
+                            <p className="text-base md:text-lg">
+                                Our culture is one of openness and collaboration, where every tutor and student can thrive in a supportive and inclusive environment. 
+                                We deeply value integrity, teamwork, a passion for learning, and the continuous pursuit of personal and academic growth.
                             </p>
                         </div>
 
                         <div className="flex-1">
                             <h3 className="text-2xl font-semibold mb-4">Our Team</h3>
-                            <p className="text-base md:text-lg leading-relaxed">
-                                Our expert tutors are driven by a commitment to help students achieve their best. 
-                                With a broad range of expertise, we ensure that each student gets personalized attention and guidance.
+                            <p className="text-base md:text-lg">
+                                Our expert tutors are driven by a commitment to help students achieve their best, fostering both academic growth and personal confidence. 
+                                With a broad range of expertise, we ensure that each student gets personalized attention, tailored support, and individualized guidance to reach their full potential.
                             </p>
                         </div>
                     </div>
 
                 </div>
 
-                <div className="hidden md:flex w-[27%] justify-center items-center">
-                    <div className="bg-gray-300 w-[24em] h-[32em] rounded-lg shadow-lg flex items-center justify-center">
+                <div className="hidden md:flex w-[28%] justify-center items-center">
+                    <div className="bg-gray-300 w-[25em] h-[35em] rounded-lg shadow-lg flex items-center justify-center">
                         <img 
                             src="img/Overview.jpg" 
                             alt="tutor-teaching" 

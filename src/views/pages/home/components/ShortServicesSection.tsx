@@ -14,7 +14,7 @@ function ShortServicesSection() {
 
             {/*Content*/}
             <div className="flex flex-col md:flex-row gap-8 items-center">
-                <div className="h-[27em] w-full md:w-[25%] hidden md:flex justify-center">
+                <div className="h-[35em] w-full md:w-[25%] hidden md:flex justify-center">
                     <img
                         src="img/Service.jpg"
                         alt="tutor-teaching"
@@ -22,21 +22,25 @@ function ShortServicesSection() {
                     />
                 </div>
 
-                <div className="border-2 border-white h-auto md:h-[27em] w-full md:w-[75%] p-8 flex flex-col justify-center rounded-lg shadow-lg">
+                <div className="border-2 border-white h-auto w-full md:w-[75%] p-8 flex flex-col justify-center rounded-lg shadow-lg">
                     <h3 className="text-2xl md:text-3xl font-semibold mb-4">
                         Comprehensive Education Tutoring Services
                     </h3>
                     <p className="text-base md:text-lg leading-relaxed">
-                        At Veritas, we specialize in providing high-quality, personalized education tutoring services. 
-                        Our expert tutors are passionate about helping students of all levels—whether they need help with basic subjects or advanced academic topics. 
+                        At Veritas, we specialize in high-quality, personalized tutoring services designed to meet the diverse needs of our students. 
+                        Our expert tutors are passionate about helping learners of all levels, whether they need support with basic subjects or advanced academic topics. 
                     </p>
                     <p className="text-base md:text-lg leading-relaxed mt-4">
-                        We offer one-on-one sessions tailored to each student's unique learning style and academic needs. 
-                        Our goal is to not only improve grades but also foster a deep understanding of the subject matter. 
-                        Our services cover a wide range of subjects, including math, science, language arts, and test preparation for standardized exams.
+                        We offer a range of flexible services:
                     </p>
+                    <ul className="text-base md:text-lg leading-relaxed list-disc pl-5 mt-2">
+                        <li><span className="font-semibold">Home tutoring: </span>Tailored lessons delivered in the comfort of your home, focusing on academic improvement while building confidence.</li>
+                        <li><span className="font-semibold">Online tutoring: </span>Flexible sessions available anytime, anywhere, providing expert guidance for exam preparation and homework support.</li>
+                        <li><span className="font-semibold">Extensive tutoring: </span>A blend of home and online tutoring with guaranteed results or a partial refund if goals aren't achieved, ideal for intensive, personalized learning plans.</li>
+                    </ul>
+                    
                     <p className="text-base md:text-lg leading-relaxed mt-4">
-                        Our tutoring programs are designed to help students build confidence, enhance their critical thinking skills, and achieve long-term academic success.
+                        Our programs aim not only to boost grades but also to deepen students' understanding, enhance critical thinking, and foster long-term academic success.
                     </p>
 
                     <div className="mt-6 flex justify-end">
