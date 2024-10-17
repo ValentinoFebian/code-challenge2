@@ -18,14 +18,14 @@ function Navbar() {
                     <nav className="flex justify-between items-center">
 
                         {/*Logo*/}
-                        <ul className="flex flex-row">
+                        <div className="flex flex-row">
                             <img
-                                src="icon/Veritas.png"
+                                src="icon/Veritas.webp"
                                 alt="logo"
                                 width={100}
                                 height={40}
                             />
-                        </ul>
+                        </div>
 
                         {/*Menu for Desktop & Tablet*/}
                         <ul className="hidden md:flex flex-row-reverse items-center gap-[4em] pr-[0em]">

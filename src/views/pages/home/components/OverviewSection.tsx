@@ -46,7 +46,7 @@ function OverviewSection() {
                 <div className="hidden md:flex w-[28%] justify-center items-center">
                     <div className="bg-gray-300 w-[25em] h-[35em] rounded-lg shadow-lg flex items-center justify-center">
                         <img 
-                            src="img/Overview.jpg" 
+                            src="img/Overview.webp" 
                             alt="tutor-teaching" 
                             className="w-full h-full object-fit rounded-lg shadow-lg"
                         />

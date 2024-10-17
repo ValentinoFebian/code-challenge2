@@ -1,6 +1,6 @@
 function HeroSection() {
     return (
-        <div className="bg-[url('/img/Hero.jpg')] bg-cover bg-center">
+        <div className="bg-[url('/img/Hero.webp')] bg-cover bg-center">
             <div className="inset-0 bg-black bg-opacity-65 h-[50em] flex items-center justify-center p-4">
                 <div className="border-2 border-white flex flex-col md:flex-row items-center text-center text-gray-50 w-full max-w-[50em] h-auto md:h-[20em] p-4 md:p-0">
                     <div>
