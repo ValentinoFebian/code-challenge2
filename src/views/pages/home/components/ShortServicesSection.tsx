@@ -14,7 +14,7 @@ function ShortServicesSection() {
 
             {/*Content*/}
             <div className="flex flex-col md:flex-row gap-8 items-center">
-                <div className="h-[36.5em] w-full md:w-[25%] hidden md:flex justify-center">
+                <div className="h-[35.5em] w-full md:w-[25%] hidden md:flex justify-center">
                     <img
                         src="img/Service.webp"
                         alt="tutor-teaching"
