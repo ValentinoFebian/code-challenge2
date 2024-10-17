@@ -16,17 +16,28 @@ function TeamSection() {
     const [tutors, setTutors] = useState<Tutor[]>([]);
 
     useEffect(() => {
+
+        {/* Fetch tutor data from API */}
         const fetchTutors = async () => {
             try {
                 const response = await fetch("https://randomuser.me/api/?results=4");
                 const data = await response.json();
                 setTutors(data.results);
+                localStorage.setItem('tutors', JSON.stringify(data.results)); // Store the data in localStorage
             } catch (err) {
                 console.log(err);
             }
         };
 
-        fetchTutors();
+        {/*Check if data already exists in localStorage */}
+        const storedTutors = localStorage.getItem('tutors');
+
+        if (storedTutors) {
+            setTutors(JSON.parse(storedTutors));
+        } else {
+            fetchTutors();
+        }
+
     }, []);
 
     return (
@@ -73,5 +84,4 @@ function TeamSection() {
 }
 
 export default TeamSection;
-
 
