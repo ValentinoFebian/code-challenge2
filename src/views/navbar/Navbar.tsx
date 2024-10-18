@@ -45,7 +45,11 @@ function Navbar() {
 
                         {/*Hamburger Icon for Mobile*/}
                         <div className="md:hidden">
-                            <button onClick={toggleMenu} className="focus:outline-none">
+                            <button 
+                                onClick={toggleMenu} 
+                                className="focus:outline-none"
+                                aria-label={isOpen ? "Close menu" : "Open menu"} //Aria-label to increase accessibility
+                            >
                                 <svg
                                     className="w-8 h-8 text-white"
                                     fill="none"

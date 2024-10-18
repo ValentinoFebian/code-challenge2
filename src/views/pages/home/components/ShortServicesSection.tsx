@@ -71,8 +71,13 @@ function ShortServicesSection() {
                     </div>
 
                     <div className="mt-6 flex justify-end">
-                        <button className="bg-[#1E201E] text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors">
-                            <Link href="/services">Learn More</Link>
+                        <button 
+                            className="bg-[#1E201E] text-white px-6 py-3 rounded-md hover:bg-blue-700 transition-colors"
+                            style={{ minWidth: "48px", minHeight: "48px" }}
+                        >
+                            <Link href="/services" aria-label="Learn more about our services">
+                                Learn More
+                            </Link>
                         </button>
                     </div>
                 </div>

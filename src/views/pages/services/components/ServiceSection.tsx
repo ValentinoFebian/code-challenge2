@@ -4,7 +4,7 @@ function ServiceSection() {
 
             {/*Title*/}
             <div className="text-center mb-12">
-                <h2 className="text-4xl md:text-4xl lg:text-5xl font-semibold text-gray-800">Our services</h2>
+                <h2 className="text-4xl md:text-4xl lg:text-5xl font-semibold">Our services</h2>
                 <p className="text-xl text-gray-600 mt-4 mb-4">
                     Explore the wide range of services we offer to help students achieve academic success.
                 </p>
