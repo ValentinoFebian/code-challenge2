@@ -37,12 +37,12 @@ export default async function AboutSection() {
                     key={idx}
                     className="max-w-full mx-auto p-6 mb-8 bg-white shadow-lg rounded-lg hover:shadow-2xl transition-shadow"
                     >
-                    {/* Display the title */}
+                    
                     <h3 className="text-2xl font-semibold mb-4 text-gray-800">
                         {aboutItem.fields.title}
                     </h3>
 
-                    {/* Display the body (Rich Text) */}
+                    
                     {aboutItem.fields.body && (
                         <div className="text-lg text-gray-700 leading-relaxed">
                         {documentToReactComponents(aboutItem.fields.body)}

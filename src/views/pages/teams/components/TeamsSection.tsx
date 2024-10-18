@@ -17,7 +17,7 @@ function TeamSection() {
 
     useEffect(() => {
 
-        {/* Fetch tutor data from API */}
+        {/*Fetch tutor data from API*/}
         const fetchTutors = async () => {
             try {
                 const response = await fetch("https://randomuser.me/api/?results=4");
